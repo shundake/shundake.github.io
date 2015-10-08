@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: Shundake's Blog
 locale: en_US
-description: Describe your website here.
+description: Um blog para dicas, tutoriais, brainfarts e outros assuntos relacionados a TI em geral.
 logo: site-logo.png
 search: true
 url: http://blog.shundake.xyz
@@ -33,22 +33,22 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Rodrigo 'Shun' Namba Dake
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: rodrigodake@gmail.com
   disqus-shortname:
-  twitter: #username
+  twitter: shundake
   facebook: #username
-  github: #username
+  github: shundake
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
+  linkedin: rodrigodake
+  instagram: shundake
   flickr: #username
   tumblr: #username
   pinterest: #username
   weibo: #userid
   google:
-    plus: #username
+    plus: rodrigodake
     analytics:
     verify:
     ad-client:

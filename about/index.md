@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About the Blog
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+excerpt: "Um blog para dicas, tutoriais, brainfarts e outros assuntos relacionados a TI em geral."
 modified:
 image:
   feature:
@@ -9,18 +9,12 @@ image:
   creditlink:
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+Meu nome é Rodrigo, mas sou mais conhecido como Shun, e não, não sou de
+andrômeda!
+Há muito tempo venho cultivando a vontade de iniciar um blog voltado para
+assuntos relacionados à Tecnologia da Informação em geral. Sendo, na realidade,
+um compilado de minhas experiências e pesquisas, seja por curiosidade ou por
+necessidade.
+Então, pretendo fazer deste, um lugar de aprendizado e compartilhamento de
+conhecimento.
 
-## So Simple Theme is all about:
-
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*

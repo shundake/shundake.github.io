@@ -36,7 +36,7 @@ Para os usuários de Debian, ele vem no pacote gddrescue:
  # apt-get install gddrescue
 {% endhighlight %}
 
-O comando para utilizálo é simples:
+O comando para utilizá-lo é simples:
 
 {% highlight bash %}
  $ ddrescue origem destino log.log
@@ -51,7 +51,7 @@ Explicando:
 
 Parece complicado, mas é bem simples de ser utilizado, porém, dependendo do
 arquivo ou dispositivo pode levar um bom tempo até terminar. Listarei alguns
-usos que podem ser realizados, como exemplo, para tornar mais simples o
+usos que podem ser realizados como exemplo, para tornar mais simples o
 entendimento:
 
 **Caso 1**

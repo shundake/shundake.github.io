@@ -4,7 +4,7 @@ title: "A Post with a Video"
 excerpt: "Custom written post descriptions are the way to go... if you're not lazy."
 categories: articles
 tags: [sample-post, video]
-comments: yes
+comments: true
 share: true
 ---
 <div id="fb-root"></div>
@@ -33,4 +33,3 @@ And here's a Vimeo embed for testing purposes.
 
 <div class="fb-comments" data-href="http://blog.shundake.xyz{{ post.url }}/"
 108 data-width="600" data-num-posts="2" data-colorscheme="dark"></div>
-

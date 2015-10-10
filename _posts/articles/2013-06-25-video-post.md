@@ -31,5 +31,5 @@ And here's a Vimeo embed for testing purposes.
 
 <iframe src="//player.vimeo.com/video/98146708?title=0&amp;byline=0" width="500" height="281" frameborder="0"> </iframe>
 
-<div class="fb-comments" data-href="http://blog.shundake.xyz{{ post.url }}/"
-108 data-width="600" data-num-posts="2" data-colorscheme="dark"></div>
+<div class="fb-comments" data-href="http://dhodgkin.github.com/2013/08/19/on-fb-comments-and-jekyll/"
+  data-width="600" data-num-posts="2" data-colorscheme="dark"></div>

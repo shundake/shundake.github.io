@@ -19,7 +19,7 @@ deixar na mão, logo logo. Assim, adquiri um novo, e decidi copiar os arquivos
 para o novo, fazer um backup, por assim dizer. Qual foi a minha surpresa que ao
 iniciar a cópia, muitos dos arquivos estavam corrompidos devido a *bad blocks*.
 
-Frente a esse novo problema, decidiclonar os hd's, foi quando, numa conversa com uns colegas na internet fui apresentado à
+Frente a esse novo problema, decidi clonar os hd's, foi quando, numa conversa com uns colegas na internet fui apresentado à
 ferramenta [**ddrescue**](http://www.gnu.org/software/ddrescue/manual/ddrescue_manual.html).
 
 Em resumo, a ferramenta de recuperação de dados, ela copia os dados de um
@@ -93,4 +93,4 @@ criando um **log** para consulta.
 
 #E aí, o que acharam?
 
-Deixem suas sugestões, comentários, críticas e dúvidas log abaixo.
+Deixem suas sugestões, comentários, críticas e dúvidas logo abaixo.

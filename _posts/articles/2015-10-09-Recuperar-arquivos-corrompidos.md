@@ -6,7 +6,7 @@ categories: articles
 excerpt: "O que fazer quando abrimos um arquivo importante e aparece a mensagem de arquivo corrompido?"
 tags: [ddrescue, recovery, corrompido, corrupt, recuperar]
 author:
-comments: true
+comments: yes
 share: true
 image:
   feature:
@@ -94,3 +94,10 @@ criando um **log** para consulta.
 #E aí, o que acharam?
 
 Deixem suas sugestões, comentários, críticas e dúvidas logo abaixo.
+
+{{ "{% if page.comments " }}%}
+<hr/>
+<h2>Comments</h2>
+<div class="fb-comments" data-href="{{ "{{ site.url " }}}}{{ "{{ page.url "
+}}}}" data-num-posts="4" data-width="706"></div>
+{{ "{% endif"}}%}

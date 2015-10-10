@@ -43,10 +43,10 @@ O comando para utilizálo é simples:
 {% endhighlight %}
 
 Explicando:
-* **ddrescue**: a ferramenta para efetuar recuperação de dados;
-* **origem**: dispositivo ou arquivo de origem;
-* **destino**: dispositivo ou arquivo de destino;
-* **log.log**: arquivo de log;
++ **ddrescue**: a ferramenta para efetuar recuperação de dados;
++ **origem**: dispositivo ou arquivo de origem;
++ **destino**: dispositivo ou arquivo de destino;
++ **log.log**: arquivo de log;
 
 Parece complicado, mas é bem simples de ser utilizado, porém, dependendo do
 arquivo ou dispositivo pode levar um bom tempo até terminar. Listarei alguns

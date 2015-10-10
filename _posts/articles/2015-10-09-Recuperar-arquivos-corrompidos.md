@@ -22,7 +22,7 @@ iniciar a cópia, muitos dos arquivos estavam corrompidos devido a *bad blocks*.
 Frente a esse novo problema, decidi clonar os hd's, foi quando, numa conversa com uns colegas na internet fui apresentado à
 ferramenta [**ddrescue**](http://www.gnu.org/software/ddrescue/manual/ddrescue_manual.html).
 
-Em resumo, a ferramenta de recuperação de dados, ela copia os dados de um
+Em resumo, é uma ferramenta de recuperação de dados, ela copia os dados de um
 arquivo ou dispositivo de bloco (HD, CDROM, Pendrive etc) para outro, tentando
 recuperar primeiro as partes boas em caso de erros de leitura.
 

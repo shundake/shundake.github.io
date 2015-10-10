@@ -43,6 +43,7 @@ O comando para utilizálo é simples:
 {% endhighlight %}
 
 Explicando:
+
 + **ddrescue**: a ferramenta para efetuar recuperação de dados;
 + **origem**: dispositivo ou arquivo de origem;
 + **destino**: dispositivo ou arquivo de destino;

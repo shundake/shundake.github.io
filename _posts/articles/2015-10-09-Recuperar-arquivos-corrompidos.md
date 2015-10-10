@@ -7,8 +7,8 @@ excerpt: "O que fazer quando abrimos um arquivo importante e aparece a mensagem 
 tags: [ddrescue, recovery, corrompido, corrupt, recuperar]
 author:
 comments: yes
-  facebook :
-    appid : 541394239351629
+  facebook:
+    appid: 541394239351629
     num_posts: 7
     width: 580
     colorscheme: light

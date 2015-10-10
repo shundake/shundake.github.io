@@ -30,6 +30,8 @@ mathjax: true
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
+twitterAccountName: shundake
+facebookDevAppId: 541394239351629
 
 # Site owner
 owner:
@@ -38,7 +40,7 @@ owner:
   email: rodrigodake@gmail.com
   disqus-shortname:
   twitter: shundake
-  facebook: #username
+  facebook: shundakesblog
   github: shundake
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: rodrigodake

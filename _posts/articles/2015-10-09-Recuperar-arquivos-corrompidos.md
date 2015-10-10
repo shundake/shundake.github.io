@@ -14,6 +14,15 @@ image:
   creditlink:
 ---
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=541394239351629";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 Há uns dias adquiri um novo HD, pois o meu estava dando sinais de que iria me
 deixar na mão, logo logo. Assim, adquiri um novo, e decidi copiar os arquivos
 para o novo, fazer um backup, por assim dizer. Qual foi a minha surpresa que ao
@@ -94,3 +103,6 @@ criando um **log** para consulta.
 #E aí, o que acharam?
 
 Deixem suas sugestões, comentários, críticas e dúvidas logo abaixo.
+
+<div class="fb-comments" data-href="http://blog.shundake.xyz{{ post.url }}/"
+data-width="600" data-num-posts="2" data-colorscheme="dark"></div>

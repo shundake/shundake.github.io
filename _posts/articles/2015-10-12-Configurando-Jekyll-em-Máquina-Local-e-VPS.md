@@ -305,5 +305,4 @@ $ git push droplet master
 
 Deixem suas sugestões, comentários, críticas e dúvidas logo abaixo.
 
-<div class=fb-comments data-href=http://blog.shundake.xyz{{ post.url }}/
-data-width=600 data-num-posts=2 data-colorscheme=dark></div>
+<div class=fb-comments data-href="http://blog.shundake.xyz{{ post.url }}/" data-width=600 data-num-posts=2 data-colorscheme=dark></div>

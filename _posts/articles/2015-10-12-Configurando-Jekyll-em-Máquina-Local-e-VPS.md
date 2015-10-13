@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Configurando Jekyll em Máquina Local e VPS"
+modified:
+categories: articles
 excerpt: "Configuração rápida para iniciar um blog/site com o jekyll e efetuar o
 deploy usando git"
-categories: articles
 tags: [jekyll, deploy, remote, blog]
 author:
 comments: true

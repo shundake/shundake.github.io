@@ -23,7 +23,7 @@ image:
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-post url = http://blog.shundake.xyz{{ post.url }}
+post url = {{ site.url }}{{ post.url }}
 
 Há uns dias adquiri um novo HD, pois o meu estava dando sinais de que iria me
 deixar na mão, logo logo. Assim, adquiri um novo, e decidi copiar os arquivos

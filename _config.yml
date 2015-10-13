@@ -9,7 +9,7 @@ url: http://blog.shundake.xyz
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   /:categories/:title.html
 markdown:    kramdown
 highlighter: pygments
 sass:

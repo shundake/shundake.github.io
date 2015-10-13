@@ -23,8 +23,6 @@ image:
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-post url = {{ page.url }}
-
 Há uns dias adquiri um novo HD, pois o meu estava dando sinais de que iria me
 deixar na mão, logo logo. Assim, adquiri um novo, e decidi copiar os arquivos
 para o novo, fazer um backup, por assim dizer. Qual foi a minha surpresa que ao
@@ -106,5 +104,5 @@ criando um **log** para consulta.
 
 Deixem suas sugestões, comentários, críticas e dúvidas logo abaixo.
 
-<div class="fb-comments" data-href="http://blog.shundake.xyz{{ post.url }}/"
+<div class="fb-comments" data-href="http://blog.shundake.xyz{{ page.url }}/"
 data-width="600" data-num-posts="2" data-colorscheme="dark"></div>

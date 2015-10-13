@@ -9,7 +9,7 @@ author:
 comments: true
 share: true
 image:
-  feature:
+  feature: recoverFiles.png
   credit:
   creditlink:
 ---

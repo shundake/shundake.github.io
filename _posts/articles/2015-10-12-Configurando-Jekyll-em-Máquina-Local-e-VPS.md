@@ -25,8 +25,8 @@ image:
 
 
 Há alguns meses, decidi voltar a produzir um blog. Pensei em reviver um dos meus
-blogs antigos, mas eu queria algo novo e que refletisse, realmente, minha
-vontade, durante a configuração.
+blogs antigos, mas eu queria algo novo e que refletisse, realmente, minhas
+vontades, durante a configuração e utilização.
 
 Assim, fui apresentado ao [Jekyll](https://jekyllrb.com/), um gerador de sites
 estáticos, que utiliza arquivos de texto, contendo as postagens, a serem
@@ -39,7 +39,7 @@ Primeiramente atualizar o pacote do ruby, que pode ser encontrado no
 [Site Oficial](http://rubyinstaller.org/downloads/), mas é aconselhável que
 efetue a instalação/atualização através do gerenciador de pacotes de sua distro,
 caso esteja utilizando MAC, siga
-[essas instruções](http://digitalshore.io/development/2015/03/22/how-to-install-jekyll-mac-osx-yosemite/) e, caso queria tentar utilizá-lo no Windows, [siga essas](http://jekyll-windows.juthilo.com/).
+[essas instruções](http://digitalshore.io/development/2015/03/22/how-to-install-jekyll-mac-osx-yosemite/) e, caso queira tentar utilizá-lo no Windows, [siga essas](http://jekyll-windows.juthilo.com/).
 Na minha situação, utilizando arch, apenas atualizei o pacote com o comando:
 
 {% highlight bash %}
@@ -63,10 +63,10 @@ fazer o deploy do nosso blog.
 # Criando o Blog (local)
 
 No site da [ferramenta](https://jekyllrb.com/) podemos encontrar um guia para
-utilizar, bem como o básico e coisas sobre a customização.
+utilização, contendo o básico e coisas sobre a customização.
 
-Para iniciarmos o blog é necessário navegar até onde deseja guardar os arquivos
-relacionados ao blog e executar o comando abaixo:
+Para iniciarmos o blog é necessário navegar até onde desejamos guardar os arquivos
+relacionados a ele e executar o comando abaixo:
 
 {% highlight bash %}
 $ jekyll new myblog
@@ -296,7 +296,7 @@ $ git push droplet master
 
 Lembrando que onde encontra-se **user** é o seu usuário na VPS, **site.example.com** é o ip ou domain name e **porta** a porta de acesso ssh.
 
-Assim, qualquer postagem, mudança de layout, remoção de conteúdo será atualizado, pouucos segundos após a execução dos comandos básicos:
+Assim, qualquer postagem, mudança de layout, remoção de conteúdo será atualizado, poucos segundos após a execução dos comandos básicos:
 
 {% highlight bash %}
 $ git add .

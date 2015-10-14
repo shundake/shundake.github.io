@@ -19,7 +19,7 @@ image:
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=541394239351629";
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&version=v2.5&appId=541394239351629";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -309,4 +309,4 @@ $ git push droplet master
 Deixem suas sugestões, comentários, críticas e dúvidas logo abaixo.
 
 <div class="fb-comments" data-href="http://blog.shundake.xyz{{ page.url }}/"
-data-width="600" data-num-posts="2" data-colorscheme="dark"></div>
+data-width="600" data-num-posts="5" data-colorscheme="dark"></div>

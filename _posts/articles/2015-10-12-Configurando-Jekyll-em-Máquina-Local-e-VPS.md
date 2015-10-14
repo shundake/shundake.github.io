@@ -10,7 +10,7 @@ author:
 comments: true
 share: true
 image:
-  feature:
+  feature:jekyllVPS.jpg
   credit:
   creditlink:
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como montar dispositivos usb no linux"
+title: "Montar manualmente usb no linux"
 categories: articles
 excerpt: "Instalei uma nova distribuição linux no pc e preciso montar um
 pendrive... O que fazer?"
@@ -37,7 +37,7 @@ porque estamos acostumados com ações automáticas por parte do SO. O que
 facilita a vida do usuário, mas pode tornar-se um risco de segurança para a sua
 máquina.
 
-Não que seja uma ~~ameaça terrorista~~ deixar o usb montar automaticamente, no
+Não que seja uma <s>ameaça terrorista</s> deixar o usb montar automaticamente, no
 entanto, caso seja sua máquina no trabalho, uma que mais pessoas tenham acesso,
 ou até mesmo a da sua casa, montar automaticamente, pendrives desconhecidos
 pode não ser uma boa escolha.
@@ -47,8 +47,8 @@ possuirem tantos problemas com virus e malwares, mas um
 [script](http://lwn.net/Articles/427135/) bem feito pode lhe
 deixar em maus bocados.
 
-Existem outros exemplos, mas meu foco, neste post, não é segurança ~~também é,
-mas não entremos em detalhes~~. Nosso foco é sobre **como montar o
+Existem outros exemplos, mas meu foco, neste post, não é segurança <s>também é,
+mas não entremos em detalhes</s>. Nosso foco é sobre **como montar o
 dispositivo de armazenamento usb de forma manual**.
 
 Pois bem, acabei me desviando um bocado do tema, e futuramente farei um post

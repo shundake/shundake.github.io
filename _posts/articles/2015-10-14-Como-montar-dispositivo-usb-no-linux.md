@@ -58,10 +58,10 @@ sobre esse outro assunto.
 
 Aqui temos duas opções para utilizar:
 
-+ [mount](http://www.gnu.org/software/libc/manual/html_node/Mount_002dUnmount_002dRemount.html): que é utilizado apenas como root
++ [mount](http://www.gnu.org/software/libc/manual/html_node/Mount_002dUnmount_002dRemount.html): que é utilizado apenas como root;
 
 + [udisks](http://udisks.freedesktop.org/docs/latest/udisksctl.1.html): a ser
-  utilizado como usuário normal.
+  utilizado como usuário normal;
 
 # Utilizando *mount*
 

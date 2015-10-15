@@ -11,7 +11,7 @@ share: true
 image:
   feature: mountUSB.jpg
   credit:
-  creditlink
+  creditlink:
 ---
 
 <div id="fb-root"></div>

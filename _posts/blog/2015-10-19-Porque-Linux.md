@@ -8,7 +8,6 @@ tags: [linux, use]
 comments: true
 image:
   feature:
-date:
 ---
 
 <div id="fb-root"></div>

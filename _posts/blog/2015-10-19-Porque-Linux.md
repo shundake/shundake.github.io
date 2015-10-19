@@ -35,12 +35,12 @@ Tecnologia da Informação.
 
 Os motivos que realmente me incitaram a utilizá-lo foram:
 
-1 Um novo desafio de aprendizado pra mim;
+1. Um novo desafio de aprendizado pra mim;
 
-2 Sempre gostei de ver aquele monte de letras subindo nos
+2. Sempre gostei de ver aquele monte de letras subindo nos
 [terminais](https://en.wikipedia.org/wiki/Linux_console);
 
-3 Ser altamente personalizável;
+3. Ser altamente personalizável;
 
 Eu como muitos dos usuários de computadores pessoais, comecei utilizando
 sistemas Windows, mais precisamente o Windows 98, para processamento de textos

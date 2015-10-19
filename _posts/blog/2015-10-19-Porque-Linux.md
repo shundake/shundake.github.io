@@ -6,6 +6,7 @@ categories: blog
 excerpt: "Porque eu uso linux?"
 tags: [linux, use]
 comments: true
+share: true
 image:
   feature:
 ---

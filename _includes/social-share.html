@@ -1,5 +1,9 @@
 <span class="social-share-twitter">
-  <a href="https://twitter.com/intent/tweet?hashtags={{ page.tags | join: ',' | remove: ' ' }}&amp;text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ site.url }}{{ page.url }}{% if author.twitter %}&amp;via={{ author.twitter }}{% endif %}" title="Share on Twitter" itemprop="Twitter"><i class="fa fa-twitter-square"></i> Tweet</a>
+  <a href="https://twitter.com/intent/tweet?original_referer={{ site.url
+  }}{{page.url }}%2&ref_src=twsrc^tfw&text={{ page.title | escape | replace:'
+  ','%20'}}&tw_p=tweetbutton&url=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&via={{
+  author.twitter }}" title="Share on Twitter" itemprop="Twitter"><i class="fa fa-twitter-square"></i>
+  Tweet</a>
 </span>
 <span class="social-share-facebook">
   <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" itemprop="Facebook"><i class="fa fa-facebook-square"></i> Like</a>

@@ -1,4 +1,5 @@
 <!-- Twitter Cards -->
+<!--
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 {% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">{% endif %}
 {% if site.owner.twitter %}<meta name="twitter:site" content="@{{ site.owner.twitter }}">{% endif %}
@@ -10,6 +11,24 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
 {% endif %}
+-->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@{{ site.author.twitter }}">
+<meta name="twitter:creator" content="@{{ site.author.twitter }}">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else
+%}{{ site.name }}{% endif %}">
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt |
+strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{%
+endif %}">
+<meta name="twitter:image" content="{% if page.featured_image %}{{
+page.featured_image | prepend: site.baseurl | prepend: site.url }}{% else %}{{
+site.icon | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+<meta name="twitter:url" content="{{ page.url | replace:'index.html','' |
+prepend: site.baseurl | prepend: site.url }}">
+
+
+
+
 <!-- Open Graph -->
 <meta property="og:locale" content="{{ site.locale }}">
 <meta property="og:type" content="article">

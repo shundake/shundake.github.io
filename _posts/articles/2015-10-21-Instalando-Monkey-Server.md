@@ -240,8 +240,7 @@ identificar cada item necessário para fazê-lo funcionar:
 
 * **[HANDLERS]**: quais as instruções de plugin serão utilizadas;
 
-# Estou começando a configuração de meu server Debian e gostaria de uma forma
-mais automatizada
+# Estou começando a configuração de meu server Debian e gostaria de uma forma mais automatizada
 
 No caso de iniciantes ou até mesmo usuários avançados, que queiram apenas testar
 o server em uma máquina limpa <s>recém instalada</s>, podem utilizar o script de

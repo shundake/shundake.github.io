@@ -218,7 +218,7 @@ $ sudo vim /etc/monkey/sites/default
 
 {% endhighlight %}
 
-Logo acima temmos o exemplo que vem por padrão no monkey, onde podemos
+Logo acima temos o exemplo que vem por padrão no monkey, onde podemos
 identificar cada item necessário para fazê-lo funcionar:
 
 * **ServerName**: o domínio do seu servidor, podendo ser example.com.br ou, se

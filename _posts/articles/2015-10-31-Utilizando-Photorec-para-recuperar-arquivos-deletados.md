@@ -10,15 +10,15 @@ author:
 comments: true
 share: true
 image:
-  feature:
+  feature: recoverPhotorec.jpg
   credit:
   creditlink:
 ---
 
-** Aviso: Utilizar ou não o software descrito é de inteira responsabilidade do
+**Aviso: Utilizar ou não o software descrito é de inteira responsabilidade do
 leitor. Os passos descritos nesse post foram testados pelo autor, no entanto,
 existe a possibilidade de não funcionar causando danos ou perdas irreparáveis,
-tornando impossível a recuperação dos dados almejados. **
+tornando impossível a recuperação dos dados almejados.**
 
 Vez ou outra nos deparamos com eventos dos quais queremos guardar alguma
 lembrança em forma de imagem. Com o advento da tecnologia, nos é possível tirar

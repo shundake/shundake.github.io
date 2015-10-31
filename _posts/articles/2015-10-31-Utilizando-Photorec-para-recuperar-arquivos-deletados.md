@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Utilizando Photorec para recuperar arquivos deletados"
-date: 2015-10-29T10:43:56(-02:00)
+date: 2015-10-31T15:15:56(-02:00)
 last_modified_at:
 excerpt: "Recuperando fotos e videos com o Photorec"
 categories: articles

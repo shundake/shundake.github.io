@@ -7,8 +7,8 @@ tags: [bash, aliases, linux, apelidos, utilitarios]
 author:
 comments: true
 share: true
-image: bashAliases.jpg
-  feature:
+image:
+  feature: bashAliases.jpg
   credit:
   creditlink:
 ---

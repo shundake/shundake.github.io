@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Criando apelidos para o bash (bash aliases)"
-date: 2015-11-23T22:12:09(-02:00)
 excerpt: Como criar apelidos para comandos longos no bash?
 categories: articles
 tags: [bash, aliases, linux, apelidos, utilitarios]

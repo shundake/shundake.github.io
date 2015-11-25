@@ -112,6 +112,9 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # utilizando comandos de modo seguro
+ # Obs. é perigoso utilizar o "rm -i" no alias, pois como é uma personalização,
+ # caso nos acostumemos a utilizá-lo, quando pegarmos uma distro ou conta de usuário
+ # sem esse alias, podemos deletar coisas erradas sem querer. Use por sua conta e risco.
  alias rm='rm -i' # habilita o modo interativo
  alias cp='cp -i' # nos comandos, perguntando a
  alias mv='mv -i' # cada arquivo se deve proceder

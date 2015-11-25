@@ -41,7 +41,7 @@ $ juntavideo 001_M_03052015030300.mp4 001_M_03052015030324.mp4
 {% endhighlight %}
 
 Está certo que não diminuiu tanto o comando, no entanto, já me economizou tempo,
-pois coloquei um nome que vou me lembrar e não preciso ficar lembrando, tpda
+pois coloquei um nome que vou me lembrar e não preciso ficar lembrando, toda
 vez, quais as opções a serem colocadas.
 
 # Por onde começar?
@@ -171,7 +171,7 @@ alias squidlog='tail -f /var/log/squid/access.log | awk '"'"'{print strftime("\0
 {% endhighlight %}
 
 Um pouco complexo para se compreender, mas funcionou, isso é o que importa <s>ou
-não<s>. Mas, na realidade, nesse caso, cada aspa simples (') foi colocada entre
+não</s>. Mas, na realidade, nesse caso, cada aspa simples (') foi colocada entre
 aspas duplas ("), para que funcionasse corretamente.
 
 Caso seja necessário remover algum *alias* é só editar o arquivo

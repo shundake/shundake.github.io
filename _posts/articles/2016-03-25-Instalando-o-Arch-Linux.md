@@ -381,7 +381,7 @@ E instalar algumas coisas necessárias para a utilização:
 {% highlight bash %}
 # pacman -S libreoffice-fresh libreoffice-fresh-pt-BR gimp guvcview pulseaudio
 alsa-firmware alsa-plugins alsa-lib pavucontrol flashplugin lame cdrkit
-dvd+rm-tools
+dvd+rw-tools
 {% endhighlight %}
 
 Como opção, deixarei o modo simples de instalação de 2 modos gráficos:

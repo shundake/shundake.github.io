@@ -386,7 +386,7 @@ dvd+rm-tools
 
 Como opção, deixarei o modo simples de instalação de 2 modos gráficos:
 
-** (KDE)[https://wiki.archlinux.org/index.php/KDE] **
+** [KDE](https://wiki.archlinux.org/index.php/KDE) **
 {% highlight bash %}
 # pacman -S plasma-desktop gdm kde-applications kde-l10n-pt_br xorg-server
 xorg-xinit xorg-server-utils
@@ -400,6 +400,15 @@ xorg-xinit xorg-server-utils
 
 # systemctl enable lightdm.service
 {% endhighlight %}
+
+Após finalizar as instalações só precisamos sair do ambiente chroot e reiniciar.
+
+{% highlight bash %}
+# exit
+
+# reboot
+{% endhighlight %}
+
 
 E é isso. Agora você tem um Arch Linux, instalado e configurado para seu uso.
 

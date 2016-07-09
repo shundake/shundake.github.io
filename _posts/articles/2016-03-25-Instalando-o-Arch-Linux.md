@@ -357,17 +357,33 @@ modificações no sistema:
 {% endhighlight %}
 
 Para que nosso sistema possa ser iniciado, é necessário que esteja instalado um
-gerenciador de boot, nesse casoi, mostrarei a instalação do
+gerenciador de boot, nesse caso, mostrarei a instalação do
 [GRUB](https://pt.wikipedia.org/wiki/GNU_GRUB).
 
+Antes de tudo, é necessário identificar se sua instalação é UEFI ou não. Uma
+forma simples (não tão correta) é você saber se seu Windowws é 8/8.1/10, caso
+seja a instalação deverá ser:
+
 {% highlight bash %}
-# pacman -S grub-efi-x86_64 efibootmgr
+# pacman -Sy grub-efi-x86_64 efibootmgr os-prober
 
 # grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=arch_grub --recheck
 
 # cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
 
 # efibootmgr -c -g -d /dev/sdX -p Y -w -L "Arch Linux (GRUB)" -l '\\EFI\\arch_grub\\grubx64.efi'
+
+# grub-mkconfig > /boot/grub/grub.cfg
+{% endhighlight %}
+
+Agora, se o seu Windows é 7 a instalação deverá ser:
+
+{% highlight bash %}
+# pacman -Sy grub os-prober
+
+# grub-install /dev/sda
+
+# grub-mkconfig > /boot/grub/grub.cfg
 {% endhighlight %}
 
 Após a instalação do GRUB, vamos atualizar o sistema:
@@ -379,9 +395,7 @@ Após a instalação do GRUB, vamos atualizar o sistema:
 E instalar algumas coisas necessárias para a utilização:
 
 {% highlight bash %}
-# pacman -S libreoffice-fresh libreoffice-fresh-pt-BR gimp guvcview pulseaudio
-alsa-firmware alsa-plugins alsa-lib pavucontrol flashplugin lame cdrkit
-dvd+rw-tools
+# pacman -S libreoffice-fresh libreoffice-fresh-pt-BR pinta guvcview pulseaudio alsa-firmware alsa-plugins alsa-lib pavucontrol flashplugin lame cdrkit dvd+rw-tools pamixer
 {% endhighlight %}
 
 Como opção, deixarei o modo simples de instalação de 2 modos gráficos:
@@ -396,9 +410,9 @@ xorg-xinit xorg-server-utils
 
 ** [Mate](https://wiki.archlinux.org/index.php/MATE) **
 {% highlight bash %}
-# pacman -S mate mate-extra lightdm xorg-server xorg-xinit xorg-server-utils
+# pacman -S mate mate-extra lxdm xorg-server xorg-xinit xorg-server-utils xf86-input-libinput xf86-input-evdev
 
-# systemctl enable lightdm.service
+# systemctl enable lxdm.service
 {% endhighlight %}
 
 Após finalizar as instalações só precisamos sair do ambiente chroot e reiniciar.

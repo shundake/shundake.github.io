@@ -59,7 +59,7 @@ Githhub.
 $ git remote add origin https://github.com/seuusuario/seusite.github.io.git
 
 $ git push -u origin master
-{% enhighlight %}
+{% endhighlight %}
 
 Toda vez que efetuar o push no repositório, será solicitado usuário e senha do
 Github.

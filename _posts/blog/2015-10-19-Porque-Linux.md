@@ -92,5 +92,4 @@ linux.
 
 Deixem seus comentários, sugestões, críticas ou dúvidas logo abaixo.
 
-<div class="fb-comments" data-href="http://blog.shundake.xyz{{ page.url }}/"
-data-width="600" data-num-posts="2" data-colorscheme="dark"></div>
+{% include fb_comment.html %}

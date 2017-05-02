@@ -251,5 +251,5 @@ Unmounted /dev/sdb1.
 
 Deixem suas sugestões, comentários, críticas e dúvidas logo abaixo.
 
-<div class="fb-comments" data-href="http://blog.shundake.xyz{{ page.url }}/" data-width="600" data-num-posts="5" data-colorscheme="dark"></div>
+<div class="fb-comments" data-href="http://shundake.xyz{{ page.url }}/" data-width="600" data-num-posts="5" data-colorscheme="dark"></div>
 

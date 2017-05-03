@@ -4,7 +4,7 @@ title: Recuperar arquivos corrompidos
 modified:
 categories: articles
 excerpt: "O que fazer quando abrimos um arquivo importante e aparece a mensagem de arquivo corrompido?"
-tags: [linux, ddrescue, recovery, corrompido, corrupt, recuperar]
+tags: [linux, ddrescue, recovery, corrompido, corrupt, recuperar, 2015]
 author:
 comments: true
 share: true

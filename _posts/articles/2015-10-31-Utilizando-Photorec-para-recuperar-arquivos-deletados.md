@@ -3,7 +3,7 @@ layout: post
 title: "Utilizando Photorec para recuperar arquivos deletados"
 excerpt: "Recuperando fotos e videos com o Photorec"
 categories: articles
-tags: [recover, recuperar, arquivos, imagens]
+tags: [recover, recuperar, arquivos, imagens, 2015]
 author:
 comments: true
 share: true

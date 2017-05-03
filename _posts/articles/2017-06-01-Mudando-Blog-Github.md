@@ -4,7 +4,7 @@ title: "Migrando o blog para o Github"
 modified:
 categories: articles
 excerpt: "Migrando o blog para o Github"
-tags: [linux, jekyll, deploy, remote, blog, github]
+tags: [linux, jekyll, deploy, remote, blog, github, 2017]
 author:
 comments: true
 share: true

@@ -4,7 +4,7 @@ title: "Montar manualmente usb no linux"
 categories: articles
 excerpt: "Instalei uma nova distribuição linux no pc e preciso montar um
 pendrive... O que fazer?"
-tags: [linux, usb, mount, udisks]
+tags: [linux, usb, mount, udisks, 2015]
 author:
 comments: true
 share: true

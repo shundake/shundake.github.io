@@ -5,7 +5,7 @@ date: 2016-03-25T12:00:25(-03:00)
 last_modified_at:
 excerpt: Passo a passo da instalação do Arch Linux.
 categories: articles
-tags: [linux, arch, instalacao, passo]
+tags: [linux, arch, instalacao, passo, 2016]
 author:
 comments: true
 share: true

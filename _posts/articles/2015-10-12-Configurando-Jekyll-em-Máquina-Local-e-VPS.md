@@ -5,7 +5,7 @@ modified:
 categories: articles
 excerpt: "Configuração rápida para iniciar um blog/site com o jekyll e efetuar o
 deploy usando git"
-tags: [linux, jekyll, deploy, remote, blog]
+tags: [linux, jekyll, deploy, remote, blog, 2015]
 author:
 comments: true
 share: true

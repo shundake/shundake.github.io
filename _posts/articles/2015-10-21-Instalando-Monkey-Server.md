@@ -4,7 +4,7 @@ title: "Instalando Monkey Server"
 excerpt: "Instalar um http server otimizado para servidores Linux, leve e
 funcional em sistemas embarcados utilizando."
 categories: articles
-tags: [linux, web, server]
+tags: [linux, web, server, 2015]
 author:
 comments: true
 share: true

@@ -5,8 +5,8 @@ locale: en_US
 description: Um blog para dicas, tutoriais, brainfarts e outros assuntos relacionados a TI em geral.
 logo: site-logo.png
 search: true
-#url: https://shundake.github.io
-url: https://shundake.xyz
+url: https://shundake.github.io
+#url: https://shundake.xyz
 
 # Jekyll configuration
 

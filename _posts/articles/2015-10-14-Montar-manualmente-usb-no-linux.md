@@ -9,7 +9,7 @@ author:
 comments: true
 share: true
 image:
-  feature: mountUSB.jpg
+  feature: mountUSB/mountUSB.jpg
   credit:
   creditlink:
 ---

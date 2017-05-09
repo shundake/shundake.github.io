@@ -8,7 +8,7 @@ author:
 comments: true
 share: true
 image:
-  feature: recoverImage.jpg
+  feature: recoverImage/recoverImage.jpg
   credit:
   creditlink:
 ---
@@ -122,7 +122,7 @@ Sendo:
   dd, do início do post;
 * **cartao.img**: a imagem criada com o comando dd;
 
-![Primeira Tela](/images/recover01.png)
+![Primeira Tela](/images/recoverImage/recover01.png)
 
 Nesta tela é possível selecionar o dispositivo, no caso, como indicamos,
 diretamente, o arquivo de imagem, aparecerá apenas ele.
@@ -130,12 +130,12 @@ diretamente, o arquivo de imagem, aparecerá apenas ele.
 Ao selecionar o dispositivo, com as setas ↑ e ↓ do teclado. E então, selecionar
 *"Proceed"* ("Prosseguir" em português <s>eu acho</s>).
 
-![Segunda Tela](/images/recover02.png)
+![Segunda Tela](/images/recoverImage/recover02.png)
 
 Após selecionar o dispositivo, é necessário selecionar a partição a ser
 *scaneada* por arquivos.
 
-![Terceira Tela](/images/recover03.png)
+![Terceira Tela](/images/recoverImage/recover03.png)
 
 Selecionada a partição desejada, devemos selecionar qual o espaço a ser
 analisado:
@@ -143,7 +143,7 @@ analisado:
 * **_Free_**: Espaço não alocado apenas;
 * **_Whole**: Toda a partição;
 
-![Quarta Tela](/images/recover04.png)
+![Quarta Tela](/images/recoverImage/recover04.png)
 
 Aqui é preciso selecionar o [sistema de
 arquivos](https://pt.wikipedia.org/wiki/Sistema_de_ficheiros), original, de seu
@@ -151,7 +151,7 @@ dispositivo. Como pode ser visto na segunda imagem, o tipo de sistema de
 arquivos é FAT 32, logo a opção a ser selecionada é *"Other"*. A seleção é
 feita com as setas → e ← do teclado.
 
-![Quinta Tela](/images/recover05.png)
+![Quinta Tela](/images/recoverImage/recover05.png)
 
 Nessa etapa, selecionamos o diretório onde serão salvos os arquivos recuperados,
 onde:
@@ -164,7 +164,7 @@ onde:
 Ao selecionar a pasta destino, pressionamos **shift+c** <s>C maiúsculo</s> para
 selecionar aa pasta e prosseguir à execução do programa
 
-![Sexta Tela](/images/recover06.png)
+![Sexta Tela](/images/recoverImage/recover06.png)
 
 Na última tela, vemos o andamento da análise, onde acompanhamos a quantidade de
 arquivos encontrados e suas

@@ -8,7 +8,7 @@ author:
 comments: true
 share: true
 image:
-  feature: bashAliases.jpg
+  feature: bashAliases/bashAliases.jpg
   credit:
   creditlink:
 ---

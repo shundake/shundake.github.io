@@ -4,7 +4,7 @@ title: "Porque Linux"
 modified:
 categories: blog
 excerpt: "Porque eu uso linux?"
-tags: [linux, use]
+tags: [linux, use, 2015]
 comments: true
 share: true
 image:

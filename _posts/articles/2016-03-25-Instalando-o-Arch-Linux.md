@@ -10,7 +10,7 @@ author:
 comments: true
 share: true
 image:
-  feature: installArch.jpg
+  feature: installArch/installArch.jpg
   credit:
   creditlink:
 ---

@@ -9,7 +9,7 @@ author:
 comments: true
 share: true
 image:
-  feature: installMonkey.jpg
+  feature: installMonkey/installMonkey.jpg
   credit:
   creditlink:
 ---

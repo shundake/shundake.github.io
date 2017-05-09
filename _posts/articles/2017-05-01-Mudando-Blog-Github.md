@@ -9,7 +9,7 @@ author:
 comments: true
 share: true
 image:
-  feature: migrateBlog.jpg
+  feature: migrateBlog/migrateBlog.jpg
   credit:
   creditlink:
 ---

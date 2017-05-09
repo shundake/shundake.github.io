@@ -143,21 +143,13 @@ detalhamento.
 21. Abra um editor de texto de sua preferência ([geany](https://pt.wikipedia.org/wiki/Geany), [leafpad](https://pt.wikipedia.org/wiki/Leafpad), [gedit](https://pt.wikipedia.org/wiki/Gedit)...) e copie o seguinte conteúdo:
 
     ```bash
-
     #!/usr/bin/env playonlinux-bash
-
     [ "$PLAYONLINUX" = "" ] && exit 0
-
     source "$PLAYONLINUX/lib/sources"
-
     export WINEPREFIX="/home/seuusuario/.PlayOnLinux//wineprefix/CorelX3"
-
     export WINEDEBUG="-all"
-
     cd "/home/seuusuario/.PlayOnLinux//wineprefix/CorelX3/drive_c/./Program Files (x86)/CorelX3"
-
     POL_Wine CorelDRAW-X3.exe "$@"
-
     ```
 
     ![Item 21.](/images/playCorel/playCorel22.png)

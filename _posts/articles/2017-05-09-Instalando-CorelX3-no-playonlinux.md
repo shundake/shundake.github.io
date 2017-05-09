@@ -73,11 +73,11 @@ detalhamento.
 7. Clique em avançar, avançar e digite "CorelX3" e clique em avançar;
 
 <figure class="third">
-	<img src="/images/playCorel/playCorel06.png" alt="Item 7."></a>
-	<img src="/images/playCorel/playCorel07.png" alt="Item 7."></a>
-	<img src="/images/playCorel/playCorel08.png" alt="Item 7."></a>
-	<img src="/images/playCorel/playCorel09.png" alt="Item 7."></a>
-	<img src="/images/playCorel/playCorel10.png" alt="Item 7."></a>
+	<img src="/images/playCorel/playCorel06.png" alt="Item 7.">
+	<img src="/images/playCorel/playCorel07.png" alt="Item 7.">
+	<img src="/images/playCorel/playCorel08.png" alt="Item 7.">
+	<img src="/images/playCorel/playCorel09.png" alt="Item 7.">
+	<img src="/images/playCorel/playCorel10.png" alt="Item 7.">
 	<figcaption>Item 7..</figcaption>
 </figure>
 

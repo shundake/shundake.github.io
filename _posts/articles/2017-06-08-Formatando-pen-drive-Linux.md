@@ -109,23 +109,23 @@ utilizando os passos abaixo:
    ```
 
 2. Dê enter em *New*.
-   ![Cfdisk1](images/format/format1.png)
+   ![Cfdisk1](/images/format/format1.png)
 
 3. Dê enter novamente, a não ser que queira definir um tamanho diferente de
    partição.
-   ![Cfdisk2](images/format/format2.png)
+   ![Cfdisk2](/images/format/format2.png)
 
 4. Selecione *primary* e dê enter.
-   ![Cfdisk3](images/format/format3.png)
+   ![Cfdisk3](/images/format/format3.png)
 
 5. Selecione *Write* e dê enter.
-   ![Cfdisk4](images/format/format4.png)
+   ![Cfdisk4](/images/format/format4.png)
 
 6. Digite *yes* e dê enter.
-   ![Cfdisk5](images/format/format5.png)
+   ![Cfdisk5](/images/format/format5.png)
 
 7. Selecione *Quit* e dê enter.
-   ![Cfdisk6](images/format/format6.png)
+   ![Cfdisk6](/images/format/format6.png)
 
 # Direto ao ponto
 

@@ -32,8 +32,8 @@ externo ou cartão de memória no linux, por isso resolvi fazer esse post.
 
 Os comandos a seguir serão executados com permissão de [superusuário](https://pt.wikipedia.org/wiki/Superusu%C3%A1rio), ou seja, com permissoes de root.
 
-Use por sua conta e risco, e mantenha em mente que *com grandes poderes vêm grandes
-responsabilidades*.
+Use por sua conta e risco, e mantenha em mente que **com grandes poderes vêm grandes
+responsabilidades**.
 
 # Preparação
 
@@ -89,11 +89,11 @@ Device     Boot Start    End Sectors Size Id Type
 ```
 
 Onde:
-* *fdisk*: é o comando para verificar as unidades de discos disponíveis
+* **fdisk**: é o comando para verificar as unidades de discos disponíveis
 
-O disco *sda*, geralmente, é o disco primário, ou seja, seu HD onde está
+O disco **sda**, geralmente, é o disco primário, ou seja, seu HD onde está
 instalado o Sistema Operacional. Assim, o que vamos formatar (no meu caso) é o
-disco *sdb*.
+disco **sdb**.
 
 Note que as partições também são mostradas no comando, que é nosso foco para a
 formatação.
@@ -108,23 +108,23 @@ utilizando os passos abaixo:
     usuario@domain:~ $ sudo cfdisk /dev/sdb
    ```
 
-2. Dê enter em *New*.
+2. Dê enter em **New**.
    ![Cfdisk1](/images/format/format1.png)
 
 3. Dê enter novamente, a não ser que queira definir um tamanho diferente de
    partição.
    ![Cfdisk2](/images/format/format2.png)
 
-4. Selecione *primary* e dê enter.
+4. Selecione **primary** e dê enter.
    ![Cfdisk3](/images/format/format3.png)
 
-5. Selecione *Write* e dê enter.
+5. Selecione **Write** e dê enter.
    ![Cfdisk4](/images/format/format4.png)
 
-6. Digite *yes* e dê enter.
+6. Digite **yes** e dê enter.
    ![Cfdisk5](/images/format/format5.png)
 
-7. Selecione *Quit* e dê enter.
+7. Selecione **Quit** e dê enter.
    ![Cfdisk6](/images/format/format6.png)
 
 # Direto ao ponto
@@ -137,19 +137,19 @@ Aqui, vamos falar sobre o caso de pendrives e HD's, pois cada um possui um
     usuario@domain:~ $ sudo mkfs.vfat -n <nome_do_pendrive> -F 32 /dev/sdb1
    ```
    Onde:
-   * *mkfs.vfat*: comando para formatação de discos;
-   * *-n*: opção para colocar um nome no dispositivo;
-   * *-F*: tamanho do fat, sendo 16 ou 32;
-   * */dev/sdb1*: partição a ser formatada.
+   * **mkfs.vfat**: comando para formatação de discos;
+   * **-n**: opção para colocar um nome no dispositivo;
+   * **-F**: tamanho do fat, sendo 16 ou 32;
+   * **/dev/sdb1**: partição a ser formatada.
 
 2. Formatando pendrives ou HD's de 16G ou maiores.
    ```bash
     usuario@domain:~ $ sudo mkfs.ntfs -L <nome_do_pendrive> /dev/sdb1
    ```
    Onde:
-   * *mkfs.ntfs*: comando para formatação de discos;
-   * *-L*: opção para colocar um nome no dispositivo;
-   * */dev/sdb1*: partição a ser formatada.
+   * **mkfs.ntfs**: comando para formatação de discos;
+   * **-L**: opção para colocar um nome no dispositivo;
+   * **/dev/sdb1**: partição a ser formatada.
 
 
 # E aí, o que achou?

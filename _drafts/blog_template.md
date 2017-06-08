@@ -1,3 +1,15 @@
+---
+layout: post
+title:
+categories: blog
+excerpt:
+tags: [2017]
+comments: true
+share: true
+image:
+  feature:
+---
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -6,4 +18,11 @@
   js.src =  "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=541394239351629";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-comments" data-href="http://blog.shundake.xyz{{ page.url }}" data-width="600" data-num-posts="5" data-colorscheme="dark"></div>
+
+
+
+# E aí, o que acharam?
+
+Deixem seus comentários, sugestões, críticas ou dúvidas logo abaixo.
+
+{% include fb_comment.html %}
